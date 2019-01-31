@@ -1,0 +1,87 @@
+/* Header */
+
+header {
+	width: 100%;
+	background-color: #efefef;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding: 15px 0 8px 0;
+}
+.logo {
+	width: 200px;
+	height: 20px;
+	float: left;
+	margin-top: 15px;
+	background: url("../images/pedagogy.svg") no-repeat;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style-type: none; 
+	text-align: right;	
+}
+
+nav li {
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+nav li a:link {
+	color: #091c5a;	
+	text-decoration: none;
+}
+nav li a:visited {
+	color: #091c5a;	
+}
+
+nav li a:hover {
+	color: #ff6600;	
+	text-decoration: underline;
+}
+
+
+nav li a:active {
+	color: #ff6600;	
+}
+
+.section-head {
+	text-align: center;
+}
+.section-copy {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+/* Introduction */ 
+.introduction{
+	width: 100%;
+	padding: 120px 0 100px 0;
+	background-color: #ffffff;
+}
+
+/* About Us */ 
+.about{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color: #efefef;
+}
+
+
+
+
+
+
+
+
+
+
+
