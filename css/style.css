@@ -75,12 +75,44 @@ nav li a:active {
 	background-color: #efefef;
 }
 
+/* Customer Testimonials */
+.testimonials{
+	
+	width: 100%;
+	padding: 100px 0;
+	background-color: #ffffff;
+}
 
+.testimonials img{
+	width: 130px;
+	margin-bottom: 10px;
+	border-radius: 50%
+}
 
+/*Projects*/ 
 
+.projects {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #efefef;	
+}
 
+.project-box {
+	background-color: #f8f8f8;
+}
 
+.project-text{
+	text-align: left;
+	padding: 10px 20px;
+}
 
+.project-link {
+	font-size: .7em;
+	letter-spacing: .09em;
+	text-transform:	uppercase;
+	font-weight: 900;
+	
+}
 
 
 
