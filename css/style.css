@@ -55,10 +55,38 @@ nav li a:active {
 
 .section-head {
 	text-align: center;
+	margin-bottom: 5px;
 }
 .section-copy {
 	text-align: center;
 	font-size: 1.2em;
+}
+
+/*Hero Video*/
+.hero-overlay{
+	position: absolute;
+	top:136px;
+	height:550px;
+	width:940px;
+	z-index:100;
+	background-image: url("../images/imac.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: visible;
+	
+}
+.hero-video{
+	width:100%;
+	max-height: 580px;
+	overflow: hidden;
+}
+ video{
+	min-height: 580px;
+}
+.hero-headline {
+	text-align: center;
+	text-transform: uppercase;
+	
 }
 
 /* Introduction */ 
@@ -123,6 +151,7 @@ nav li a:active {
 .features-subhead {
 	text-align:left;
 	margin-left:60px;
+	margin-bottom:5px;
 }
 .features-copy {
 	margin-bottom:20px;
@@ -224,7 +253,7 @@ nav li a:active {
 	background-color: #ffffff;	
 }
 .locations img{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 /* Contact Us*/
@@ -254,3 +283,61 @@ nav li a:active {
 	font-weight: 900;
 	
 }
+
+ /*Footer */
+
+footer{
+	width: 100%;
+	padding: 90px 0 80px 0;
+	text-align: center;
+	background-color:#3c3c3c;
+}
+footer a:link{
+	color:#959595;
+	
+}
+footer a:visited{
+	color:#959595;
+	text-decoration:none;
+}
+footer a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+footer a:active{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.copyright{
+	width:100%;
+	color:#959595;
+}
+.copyright p{
+	margin-bottom:0;
+}
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-square{
+	font-size: 2em;
+	margin: 20px 5px 0px 5px;
+	color:#959595;
+}
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-facebook-square:hover{
+	color:#ffffff;
+}
+
+/*Desktop and Laptops */
+
+@media only screen and (min-width: 1224px){
+	video{
+		width: 100%;
+	}
+}
+
+
+
+
+
